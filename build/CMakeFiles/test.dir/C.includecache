@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/sudoku.h
+
+/home/ryan/Workspace/libsudoku/test/test.c
+sudoku.h
+/home/ryan/Workspace/libsudoku/test/sudoku.h
+
